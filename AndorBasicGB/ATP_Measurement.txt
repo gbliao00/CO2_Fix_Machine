@@ -1,0 +1,22 @@
+S1$="C:\Users\chi32\Desktop\AndorBasic"
+
+for i = 1 to 2
+
+    run()
+    file$=S1$+str$(i)+".asc"
+    SaveAsciiXY(#0,file$)
+        
+next 
+
+
+%%%%%%%%%%%%%%%%%%%%
+
+S1$="C:\Users\chi32\Desktop\Data"
+
+for i = 1 to 5
+
+    run()
+    file$=S1$+str$(i)+".asc"
+    SaveAsciiXY(#0,file$)
+        
+next 
